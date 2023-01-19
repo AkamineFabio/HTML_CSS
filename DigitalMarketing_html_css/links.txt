@@ -1,0 +1,22 @@
+yellow background
+  Photo by <a href="https://unsplash.com/@enginakyurt?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">engin akyurt</a> on <a href="https://unsplash.com/backgrounds/colors/yellow?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+
+instagram icon
+  <a href="https://www.flaticon.com/free-icons/instagram" title="instagram icons">Instagram icons created by Freepik - Flaticon</a>
+
+html icon
+  <a href="https://www.flaticon.com/free-icons/html-5" title="html 5 icons">Html 5 icons created by Freepik - Flaticon</a>
+
+person
+  Photo by <a href="https://unsplash.com/@chrisjoelcampbell?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Christopher Campbell</a> on <a href="https://unsplash.com/images/people?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+brain icon
+  <a href="https://www.flaticon.com/free-icons/brain" title="brain icons">Brain icons created by Smashicons - Flaticon</a>
+
+laptop
+  Photo by <a href="https://unsplash.com/@ellienelie?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Lena Mytchyk</a> on <a href="https://unsplash.com/wallpapers/desktop/laptop?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+building icon
+<a href="https://www.flaticon.com/free-icons/company" title="company icons">Company icons created by Freepik - Flaticon</a>
+  

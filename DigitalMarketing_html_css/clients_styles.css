@@ -1,0 +1,28 @@
+.clients__container{
+    background-color: var(--color-grey);
+    text-align: center;
+}
+
+.clients__title{
+    padding: 3rem 0;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.clients__companys{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin: 1rem auto;
+}
+
+.company__icon{
+    width: 7%;
+    height: 7%;
+}
+
+.clients__link{
+    display: inline-block;
+    color: var(--color-blue);
+    padding: 1rem 0 2rem;
+}

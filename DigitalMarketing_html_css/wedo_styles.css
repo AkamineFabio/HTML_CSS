@@ -1,0 +1,48 @@
+.wedo__container{
+    margin: 3rem auto 0;
+    padding: 3rem 0;
+    background-color: var(--color-white);
+}
+
+.wedo__apresentation{
+    width: 60%;
+    margin: 0 auto 2rem;
+}
+
+.wedo__title{
+    width: 60%;
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--color-blue);
+}
+
+.wedo__text{
+    width: 60%;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    color: var(--color-blue);
+}
+
+.wedo__areas{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: 1rem auto 5rem;
+}
+
+.segment__title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 2rem 0;
+    color: var(--color-blue);
+}
+
+.segment__type{
+    font-size: 1.25rem;
+    margin: 1.25rem 0 0;
+    color: var(--color-blue);
+}
+
+.segment__type a{
+    color: var(--color-blue);
+}

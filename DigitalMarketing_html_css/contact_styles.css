@@ -1,0 +1,74 @@
+.contact__container{
+    background-color: var(--color-yellow);
+}
+
+.contact__division{
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    padding: 3rem 0;
+}
+
+.contact__info , .contact__form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.contact__info{
+    margin-left: 3rem;
+}
+
+.contact__location{
+    margin-bottom: 3rem;
+}
+
+.location__title, .followus__title, .form__title{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.location__text{
+    padding: 0.25rem 0;
+}
+
+.socialmedia__icons{
+    width: 4%;
+    height: 4%;
+    margin: 0.2rem;
+}
+
+.followus__copyright{
+    margin: 0.5rem 0;
+}
+
+.form__title{
+    font-weight: 600;
+}
+
+.input__form, .input__msg{
+    margin: 0.4rem 0;
+    padding: 0.75rem 0.5rem;
+    border: 1px solid var(--color-yellow);
+    border-radius: 5px;
+}
+
+.input__msg{
+    font-family: var(--font);
+}
+
+.form__button{
+    margin: 0.5rem 0;
+    padding: 0.5rem 0;
+    border: 1px solid var(--color-blue);
+    border-radius: 5px;
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+}
+
+.form__button:hover{
+    cursor: pointer;
+}

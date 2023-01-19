@@ -1,0 +1,45 @@
+@import url(header_styles.css);
+@import url(main_styles.css);
+@import url(areas_styles.css);
+@import url(duty_styles.css);
+@import url(wedo_styles.css);
+@import url(team_styles.css);
+@import url(works_styles.css);
+@import url(clients_styles.css);
+@import url(contact_styles.css);
+
+:root{
+    --color-white: #E5E5E5;
+    --color-blue: #14213D;
+    --color-blue-soft:#1b75ca;
+    --color-yellow: #ffcf00;
+    --color-grey:#DFDFDF;
+    --font: 'Source Sans Pro', sans-serif;
+}
+
+body{
+    font-family: var(--font);
+}
+
+.footer__container{
+    text-align: center;
+    background-color: var(--color-blue);
+}
+
+.footer__reference{
+    display: inline-block;
+}
+
+.footer__text, .footer__reference{
+    width: 20%;
+    color: var(--color-white);
+    margin: 0 auto;
+    padding: 3rem 0;
+}
+
+
+
+
+
+
+
