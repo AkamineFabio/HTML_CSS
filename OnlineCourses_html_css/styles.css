@@ -1,0 +1,332 @@
+body{
+    font-family: 'Roboto', sans-serif; 
+    background-color: #f07d11;
+}
+
+a{
+    text-decoration: none;
+    color: #f07d11;
+}
+
+a:hover{
+    text-shadow:2px 2px 4px #f07d11;
+    text-decoration: underline;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+
+.cabecalho{
+    position: fixed;
+    background-color: #0A0A0A;
+    width: 100%;
+    z-index: 2;
+}
+
+.cabecalho__container{
+    box-sizing: border-box;
+    height: 5vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 1rem;
+    background-color: #0A0A0A;
+}
+
+.nav__item{
+    padding: 0 1rem;
+}
+
+main{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: 95vh;
+    box-sizing: border-box;
+    background-color: #f07d11;
+}
+
+#main__image{
+    width: 60%;
+    height: 60%;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+
+.main__call{
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    width: 25%;
+    height: 30vh;
+    box-sizing: border-box;
+    padding: 1rem;
+    background-color:#0A0A0A;
+    color: #f07d11;
+    box-shadow: 10px 5px 10px #0A0A0A;
+}
+
+.main__call p{
+    padding: 0.5rem 0;
+}
+
+#main__h1{
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.button__learn{
+    display: inline-block;
+    margin: 0.5rem 0;
+    border: 0.2rem solid #f07d11;
+    background-color: #f07d11;
+    border-radius: 0.2rem;
+    padding: 0.5rem 1rem;
+    color: #0A0A0A;
+}
+
+.program{
+    height: 70vh;
+    margin: 20vh auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f07d11;
+}
+
+.program__card{
+    border: 0.2rem solid #0A0A0A;
+    box-sizing: border-box;
+    width: 15%;
+    height: 45vh;
+    margin: 0.5rem;
+    text-align: center;
+    padding: 1rem;
+    background-color: #0A0A0A;
+    box-shadow: 10px 5px 10px #0A0A0A;
+}
+
+.card__icon{
+    width: 4rem;
+    height: 4rem;
+}
+
+.card__title{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-size: 700;
+    margin: 1rem 0;
+    color: #f07d11;
+}
+
+.card__link{
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: #f07d11;
+    margin: 1rem 0;
+}
+
+.card__text{
+    color: #f07d11;
+}
+
+.card__down{
+    align-self: center;
+}
+
+.card__up{
+    align-self: flex-start;
+}
+
+
+.benefits{
+    height: 50vh;
+    background-color: #f07d11;
+}
+
+.benefits__text{
+    width: 25%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.benefits__title{
+    font-size: 2rem;
+    color: #0A0A0A;
+    font-weight: 700;
+}
+
+.benefits__subtitle{
+    display: inline-block;
+    color: #0A0A0A;
+    font-weight: 700;
+    width: 90%;
+    padding: 0 1rem;
+    margin: 1rem auto;
+}
+
+.benefits__list{
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.benefits__item{
+    color: #f07d11;
+    background-color: #0A0A0A;
+    padding: 1rem;
+    line-height: 1.25rem;
+}
+
+.benefits__item h3{
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.learning{
+    display: flex;
+    position: relative;
+    height: 60vh;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.learning__back{
+    width: 40%;
+    height: 40vh;
+    background-color: #0A0A0A;
+    position: absolute;
+    top: -10%;
+    left: 40%;
+}
+
+.learning__image{
+    width: 30%;
+    height: 40vh;
+    position: relative;
+    box-shadow: 10px 5px 10px #0A0A0A;
+}
+
+.learning__description{
+    width: 20%;
+    color: #f07d11;
+    line-height: 1.5rem;
+    padding: 0 2rem;
+    position: relative;
+}
+
+.learning__title{
+    font-size: 1.5rem;
+}
+
+.learning__text{
+    margin-bottom: 1.5rem;
+}
+
+.values{
+    height: 70vh;
+}
+
+.values__title{
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.values__container{
+    display: flex;
+    width: 40%;
+    height: 40vh;
+    box-sizing: border-box;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.values__card{
+    width: 48%;
+    height: 60%;
+    border: 0.5rem solid #0A0A0A;
+    background-color: #0A0A0A;
+    color: #f07d11;
+    margin: 1%;
+    box-sizing: border-box;
+}
+
+.values__card_title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 0.25rem;
+}
+
+.values__text{
+    margin: 0.25rem;
+    line-height: 1.25rem;
+}
+
+
+
+.rodape{
+    height: 40vh;
+    background-color: #0A0A0A;
+}
+
+.footer__content{
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 2rem;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-color: #0A0A0A;
+    color: #f07d11;
+}
+
+.footer__title{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 1rem auto;
+}
+
+.footer__text{
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
+
+.footer__submit{
+    margin: 1.5rem auto;
+}
+
+.footer__input{
+    padding: 0.5rem 4rem 0.5rem 0;
+    border: 0;
+}
+
+.footer__button{
+    padding: 0.5rem 1.75rem;
+    color: #0A0A0A;
+    background-color: #f07d11;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: 0;
+}
+
+.footer__container{
+    display: flex;
+    color: #f07d11;
+    width: 40%;
+    margin: 2rem auto;
+    text-align: center;
+    justify-content: space-between;
+}
